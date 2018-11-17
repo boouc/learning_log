@@ -38,6 +38,7 @@ INSTALLED_APPS = [
 
     # 我的应用程序
     "learning_logs",
+    "users",
 ]
 
 MIDDLEWARE = [
@@ -104,7 +105,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# 修改时区为东八区
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 

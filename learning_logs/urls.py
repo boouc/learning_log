@@ -19,5 +19,8 @@ urlpatterns = [
     path("new_topic/", views.new_topic, name="new_topic"),
 
     # 用户添加新条目的页面, 条目要与指定的主题相关联
-    path("new_entry/<int:topic_id>/", views.new_entry, name="new_entry")
+    path("new_entry/<int:topic_id>/", views.new_entry, name="new_entry"),
+
+    # 用户编辑条目的页面
+    path("edit_entry/<int:entry_id>/", views.edit_entry, name="edit_entry"),
 ]
