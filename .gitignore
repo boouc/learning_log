@@ -4,5 +4,8 @@ __pycache__/
 # Environments
 venv/
 
+# sqlite
+*.sqlite3
+
 # Pycharm
 .idea
