@@ -1,6 +1,6 @@
 django
 django-bootstrap3
-certifi==2018.10.15
+certifi==2022.12.7
 chardet==3.0.4
 cycler==0.10.0
 dj-database-url==0.5.0
